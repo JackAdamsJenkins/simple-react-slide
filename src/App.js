@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Slider from './component/slider/slider';
+
+const images = ['https://placebear.com/2048/600', 'https://placekitten.com/2048/600', 'https://baconmockup.com/2048/600', 'https://placebeard.it/2048x600', 'https://picsum.photos/2048/600']
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="container">
+      <Slider images={images} />
     </div>
   );
 }
