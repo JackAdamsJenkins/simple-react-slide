@@ -16,8 +16,8 @@ To install and run this project locally, follow these steps:
 
 To use the slider in your own React project, follow these steps:
 
-1. Copy the Slider.jsx and slider.css files from the src/components/slider directory into your project's src/components directory.
-2. Import the Slider component into your React component using import Slider from './components/Slider';.
-3. Add the <Slider /> component to your JSX code wherever you want the slider to appear.
+1. Copy the `Slider.jsx` and `slider.css` files from the `src/components/slider` directory into your project's `src/components` directory.
+2. Import the Slider component into your React component using import Slider from `'./components/Slider';`.
+3. Add the `<Slider />` component to your JSX code wherever you want the slider to appear.
 
 You can also customize the slider's behavior and appearance by editing the Slider component's props and CSS styles. See the comments in the code for more information.
