@@ -12,8 +12,6 @@ To install and run this project locally, follow these steps:
 4. Run `npm start` to start the development server.
 5. Open your web browser and navigate to `http://localhost:3000` to view the slider.
 
-### `npm start`
-
 ## Usage
 
 To use the slider in your own React project, follow these steps:
@@ -23,7 +21,3 @@ To use the slider in your own React project, follow these steps:
 3. Add the <Slider /> component to your JSX code wherever you want the slider to appear.
 
 You can also customize the slider's behavior and appearance by editing the Slider component's props and CSS styles. See the comments in the code for more information.
-
-### FontAwesome
-npm install @fortawesome/react-fontawesome
-npm install @fortawesome/free-solid-svg-icons
